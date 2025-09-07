@@ -196,7 +196,7 @@
         el.textContent = '';
         letters.forEach((letter, index) => {
         const span = document.createElement('span');
-        span.textContent = letter === ' ' ? '\u00A0' : letter; // preserve spaces
+        span.textContent = letter === ' ' ? '\u00A0' : letter; 
         span.style.display = 'inline-block';
         span.style.animationDelay = `${index * 0.1}s`;
         el.appendChild(span);
@@ -219,6 +219,7 @@
 
 </body>
 </html>
+
 
 
 
